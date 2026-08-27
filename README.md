@@ -21,7 +21,7 @@ Bu bir dönem projesidir; rapor ve analiz yukarıdaki ekip tarafından hazırlan
 
 ## Bulgular
 
-Aşağıdaki değerler `sans_oyunlariv1.ipynb` içindeki kayıtlı çıktılardan alınmıştır (N = 153).
+Aşağıdaki değerler `analiz/sans-oyunlari-analizi.ipynb` içindeki kayıtlı çıktılardan alınmıştır (N = 153).
 
 **Ölçek güvenirliği (Cronbach's α)**
 
@@ -57,7 +57,7 @@ Kısaca: şans oyunlarını daha sık oynayanların ve kazanmayı kendi strateji
 
 ## Analiz Akışı
 
-`sans_oyunlariv1.ipynb` şu sırayla ilerler:
+`analiz/sans-oyunlari-analizi.ipynb` şu sırayla ilerler:
 
 1. Veri hazırlığı ve ön işleme — kategorik yanıtların sayısallaştırılması
 2. Değişken skorlarının oluşturulması ve güvenirlik analizi (ters kodlama, Cronbach α)
@@ -79,15 +79,19 @@ Kısaca: şans oyunlarını daha sık oynayanların ve kazanmayı kendi strateji
 
 Veri Microsoft Forms üzerinden anonim olarak toplanmıştır; `Email` alanı tüm kayıtlarda `anonymous`, `Name` alanı boştur. Veri setinde katılımcıyı tanımlayan hiçbir bilgi yoktur.
 
-## Dosyalar
+## Depo Yapısı
 
-| Dosya | Açıklama |
-|---|---|
-| `VeriBilimine Giriş Final/sans_oyunlariv1.ipynb` | Tüm analizi içeren Jupyter defteri |
-| `VeriBilimine Giriş Final/sans-oyunlari.csv` | Notebook'un okuduğu veri dosyası (153 kayıt) |
-| `VeriBilimine Giriş Final/Şans Oyunları ... Anket Formu(1-153).xlsx` | Ham anket export'u (aynı veri, Excel biçiminde) |
-| `VeriBilimine Giriş Final/Hızlı Kazanç Algısı ... .pdf` | Nihai araştırma raporu (42 sayfa: literatür, yöntem, bulgular, anket formu) |
-| `VERİ BİLİMİNE GİRİŞ ARAŞTIRMA PROJESİ.docx` | Araştırma önerisi — konu, model ve hipotezler |
+```
+analiz/
+  sans-oyunlari-analizi.ipynb   Tüm analizi içeren Jupyter defteri (28 hücre, çıktılarıyla)
+veri/
+  sans-oyunlari.csv             Notebook'un okuduğu veri dosyası (153 kayıt)
+  anket-ham-veri.xlsx           Ham anket export'u (aynı veri, Excel biçiminde)
+belgeler/
+  arastirma-raporu.pdf          Nihai rapor — 42 sayfa: literatür, yöntem, bulgular, anket formu
+  arastirma-onerisi.docx        Araştırma önerisi — konu, model ve hipotezler
+requirements.txt
+```
 
 `sans-oyunlari.csv`, xlsx export'unun virgülle ayrılmış karşılığıdır; ikisi de aynı 153 kaydı içerir.
 
@@ -100,11 +104,11 @@ Veri Microsoft Forms üzerinden anonim olarak toplanmıştır; `Email` alanı t�
 Notebook Google Colab'da geliştirilmiştir; ilk hücre `pingouin` paketini kendisi kurar. Yerelde çalıştırmak için:
 
 ```bash
-pip install pandas numpy scipy statsmodels pingouin matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 ```bash
-cd "VeriBilimine Giriş Final" && jupyter notebook sans_oyunlariv1.ipynb
+jupyter notebook analiz/sans-oyunlari-analizi.ipynb
 ```
 
-Veri dosyası notebook ile aynı dizinde olduğu için hücreler baştan sona sırayla çalıştırılabilir.
+Notebook veriyi `../veri/sans-oyunlari.csv` yolundan okur; defteri kendi klasöründen açtığınızda hücreler baştan sona sırayla çalıştırılabilir.
