@@ -1,0 +1,4 @@
+# Veri dosyasinin basliklarinda tirnak icinde gomulu satir sonu var ve notebook
+# sutun adlarini birebir bu haliyle ariyor. Satir sonu donusumu bu adlari bozar.
+*.csv -text
+*.ipynb -text
