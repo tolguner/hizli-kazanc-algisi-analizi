@@ -38,7 +38,13 @@ Aşağıdaki değerler `analiz/sans-oyunlari-analizi.ipynb` içindeki kayıtlı 
 | Strateji algısı | −0.457 | < 0.0001 |
 | Kazanç miktarı | −0.218 | 0.0068 |
 
+![Değişkenler arası korelasyon ısı haritası](gorseller/korelasyon-isi-haritasi.png)
+
 **Çoklu doğrusal regresyon** — R² = 0.330, Düzeltilmiş R² = 0.303, F(6, 146) = 11.99, p < 0.001
+
+Modelin en güçlü yordayıcısı oyun oynama sıklığı: katılım sıklığı arttıkça emek inancı puanı düşüyor.
+
+![Oyun sıklığı ile emek inancı arasındaki regresyon doğrusu](gorseller/regresyon-oyun-sikligi.png)
 
 **Hipotez sonuçları**
 
@@ -89,7 +95,10 @@ veri/
   anket-ham-veri.xlsx           Ham anket export'u (aynı veri, Excel biçiminde)
 belgeler/
   arastirma-raporu.pdf          Nihai rapor — 44 sayfa: literatür, yöntem, bulgular, anket formu
-  arastirma-onerisi.docx        Araştırma önerisi — konu, model ve hipotezler
+  arastirma-onerisi.md          Araştırma önerisi — konu, model ve toplanacak veriler
+gorseller/
+  korelasyon-isi-haritasi.png   Notebook çıktısından alınan grafikler
+  regresyon-oyun-sikligi.png
 requirements.txt
 ```
 
