@@ -88,7 +88,7 @@ veri/
   sans-oyunlari.csv             Notebook'un okuduğu veri dosyası (153 kayıt)
   anket-ham-veri.xlsx           Ham anket export'u (aynı veri, Excel biçiminde)
 belgeler/
-  arastirma-raporu.pdf          Nihai rapor — 42 sayfa: literatür, yöntem, bulgular, anket formu
+  arastirma-raporu.pdf          Nihai rapor — 44 sayfa: literatür, yöntem, bulgular, anket formu
   arastirma-onerisi.docx        Araştırma önerisi — konu, model ve hipotezler
 requirements.txt
 ```
