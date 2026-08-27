@@ -2,9 +2,12 @@
 
 Şans oyunlarına yönelik "hızlı kazanç" algısı ile emeğe duyulan inanç arasındaki ilişkiyi inceleyen anket temelli bir araştırma. 153 katılımcıdan toplanan veri üzerinde tanımlayıcı istatistiklerden aracılık ve moderasyon analizine uzanan bir modelleme süreci yürütülmüştür.
 
-**Ders:** Veri Bilimine Giriş — final araştırma projesi
-**Hazırlayan:** Tolga Olguner
+**Ders:** YÖBİ4801 Özel Konular — Veri Bilimine Giriş
+**Danışman:** Dr. Habibe Aktay
+**Ekip:** Tolga Olguner, Oğulcan Kacar, Bekir Kadir Demiraslan, Faruk Kılıç
 **Durum:** Tamamlandı ve teslim edildi.
+
+Bu bir dönem projesidir; rapor ve analiz yukarıdaki ekip tarafından hazırlanmıştır.
 
 ## Araştırma Modeli
 
@@ -50,7 +53,7 @@ Aşağıdaki değerler `sans_oyunlariv1.ipynb` içindeki kayıtlı çıktılarda
 
 Kısaca: şans oyunlarını daha sık oynayanların ve kazanmayı kendi stratejisine bağlayanların emek inancı anlamlı biçimde daha düşük. Strateji algısı, oyun sıklığı ile emek inancı arasındaki ilişkide kısmi aracı rol üstleniyor. Kazanç miktarının tek başına anlamlı bir etkisi bulunamadı.
 
-> Not: Notebook'taki 13. bölümün özet tablosunda H4 satırı yer almaz; yukarıdaki H4 değerleri 11. bölümdeki aracılık analizi çıktısından alınmıştır.
+> Not: H4 satırı özet tabloya sonradan eklenmiştir; değerleri 11. bölümdeki aracılık analizi çıktısından hesaplanır. Bu nedenle 13. hücrenin kayıtlı çıktısı temizlenmiştir — defter yeniden çalıştırıldığında tablo altı hipotezle birlikte üretilir. Diğer tüm hücrelerin çıktıları teslim edildiği hâliyle durmaktadır.
 
 ## Analiz Akışı
 
@@ -83,7 +86,7 @@ Veri Microsoft Forms üzerinden anonim olarak toplanmıştır; `Email` alanı t�
 | `VeriBilimine Giriş Final/sans_oyunlariv1.ipynb` | Tüm analizi içeren Jupyter defteri |
 | `VeriBilimine Giriş Final/sans-oyunlari.csv` | Notebook'un okuduğu veri dosyası (153 kayıt) |
 | `VeriBilimine Giriş Final/Şans Oyunları ... Anket Formu(1-153).xlsx` | Ham anket export'u (aynı veri, Excel biçiminde) |
-| `VeriBilimine Giriş Final/Hızlı Kazanç Algısı ... .pdf` | Nihai araştırma raporu (8 sayfa) |
+| `VeriBilimine Giriş Final/Hızlı Kazanç Algısı ... .pdf` | Nihai araştırma raporu (42 sayfa: literatür, yöntem, bulgular, anket formu) |
 | `VERİ BİLİMİNE GİRİŞ ARAŞTIRMA PROJESİ.docx` | Araştırma önerisi — konu, model ve hipotezler |
 
 `sans-oyunlari.csv`, xlsx export'unun virgülle ayrılmış karşılığıdır; ikisi de aynı 153 kaydı içerir.
