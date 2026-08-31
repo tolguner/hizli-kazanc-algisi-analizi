@@ -2,7 +2,7 @@
 
 Şans oyunlarına yönelik "hızlı kazanç" algısı ile emeğe duyulan inanç arasındaki ilişkiyi inceleyen anket temelli bir araştırma. 153 katılımcıdan toplanan veri üzerinde tanımlayıcı istatistiklerden aracılık ve moderasyon analizine uzanan bir modelleme süreci yürütülmüştür.
 
-Bu proje, YÖBİ4801 Özel Konular — Veri Bilimine Giriş dersi kapsamında Dr. Habibe Aktay danışmanlığında Tolga Olguner, Oğulcan Kacar, Bekir Kadir Demiraslan ve Faruk Kılıç tarafından yapılmıştır. Dönem projesi tamamlanmış ve teslim edilmiştir.
+Bu proje, Veri Bilimine Giriş dersi kapsamında Tolga Olguner, Oğulcan Kacar, Bekir Kadir Demiraslan ve Faruk Kılıç tarafından yapılmıştır.
 
 ## Araştırma Modeli
 
