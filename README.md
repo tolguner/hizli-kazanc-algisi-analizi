@@ -59,7 +59,7 @@ Modelin en güçlü yordayıcısı oyun oynama sıklığı: katılım sıklığ�
 
 Kısaca: şans oyunlarını daha sık oynayanların ve kazanmayı kendi stratejisine bağlayanların emek inancı anlamlı biçimde daha düşük. Strateji algısı, oyun sıklığı ile emek inancı arasındaki ilişkide kısmi aracı rol üstleniyor. Kazanç miktarının tek başına anlamlı bir etkisi bulunamadı.
 
-> Not: H4 satırı özet tabloya sonradan eklenmiştir; değerleri 11. bölümdeki aracılık analizi çıktısından hesaplanır. Bu nedenle 13. hücrenin kayıtlı çıktısı temizlenmiştir — defter yeniden çalıştırıldığında tablo altı hipotezle birlikte üretilir. Diğer tüm hücrelerin çıktıları teslim edildiği hâliyle durmaktadır.
+> Not: H4 satırı özet tabloya sonradan eklenmiştir; değeri 11. bölümdeki aracılık analizi çıktısından hesaplanır. Bu satırın yer aldığı 13. hücrenin çıktısı yerel bir çalıştırmadan (Python 3.12) gelir, diğer hücrelerin çıktıları teslim edildiği hâliyle durmaktadır. Defter yerelde baştan sona çalıştırılarak tüm sayıların özgün çıktılarla birebir aynı olduğu doğrulanmıştır.
 
 ## Analiz Akışı
 
