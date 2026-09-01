@@ -116,3 +116,7 @@ jupyter notebook analiz/sans-oyunlari-analizi.ipynb
 ```
 
 Notebook veriyi `../veri/sans-oyunlari.csv` yolundan okur; defteri kendi klasöründen açtığınızda hücreler baştan sona sırayla çalıştırılabilir.
+
+## Lisans
+
+MIT — bkz. [LICENSE](LICENSE). `belgeler/arastirma-raporu.pdf` akademik çalışma olarak lisans kapsamı dışındadır.
